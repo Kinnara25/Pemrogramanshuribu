@@ -7,3 +7,18 @@
     border: 1px;
     font-size: 12pt;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.full-width {
+    grid-column: 1 / 3;   
+}
